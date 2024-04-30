@@ -29,7 +29,7 @@ class BrowserTools():
           'Do amazing researches and summaries based on the content you are working with',
           backstory=
           "You're a Principal Researcher at a big company and you need to do a research about a given topic.",
-          llm=Ollama(model=os.environ['MODEL']),
+          #llm=Ollama(model=os.environ['MODEL']),
           allow_delegation=False)
       task = Task(
           agent=agent,
