@@ -6,8 +6,8 @@ from crewai import Agent, Task
 from langchain.tools import tool
 from unstructured.partition.html import partition_html
 
-from langchain.llms import Ollama
-
+#from langchain.llms import Ollama
+from langchain_community.llms import Ollama 
 class BrowserTools():
 
   @tool("Scrape website content")
